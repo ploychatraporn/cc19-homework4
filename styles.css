@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   
+   body {
+    font-family: "Krub", serif;
+   }
+   
+   .post {
+    /* background-color: aqua; */
+    width: 480px;
+    margin: 50px auto;
+    border-radius: 8px;
+    padding: 6px 12px;
+    box-shadow: 4px 4px 8px #bbb;
+   }
+   
+   .row1 {
+    
+    height: 32px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 28px 4px;
+    border-bottom: 1px solid #aaa6;
+    /* เส้นขั้น */
+   }
+   
+   .avatar {
+    width: 36px;
+    height: 36px;
+    border: 1px solid #aaa;
+    padding: 2px;
+    border-radius: 50%;
+    overflow: hidden;
+   }
+   
+   .row1 img {
+    width: 100%;
+   }
+   
+   .row1 input {
+    line-height: 1.5;
+    font-size: 16px;
+    /* flex-grow: 1; */
+    flex-basis: 100%;
+    border: none;
+    background-color: #ddd;
+    padding: 8px;
+    border-radius: 16px;
+   }
+
+   .row2 {
+    /* background-color: aqua; */
+    margin-top: 4px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+   }
+
+   .row2> *{
+    /* border:  1px dashed red; */
+    /* flex-grow: 1; */
+    flex-basis: 100%;
+    cursor: pointer;
+   }
+
+   .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+   }
+
+.post  i {
+    color: deeppink;
+    position: relative;
+    /* top: 10px; */
+    /* left: 17px; */
+}
+
+.post .fa-image {
+    color: rgb(66, 232, 66);
+}
+
+.btn:hover {
+    background-color: #eee;
+}
