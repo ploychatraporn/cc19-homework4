@@ -9,7 +9,7 @@
    }
    
    .post {
-    /* background-color: aqua; */
+   
     width: 480px;
     margin: 50px auto;
     border-radius: 8px;
@@ -61,7 +61,7 @@
    }
 
    .row2> *{
-    /* border:  1px dashed red; */
+    
     /* flex-grow: 1; */
     flex-basis: 100%;
     cursor: pointer;
